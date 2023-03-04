@@ -17,7 +17,7 @@ public class Chapter10 {
         long Tasknum = 
         list.stream()
         	.filter(l -> l.isDone() == false).count();
-        System.out.printf("未完了のタスクの個数は%s\n", Tasknum);
+        System.out.printf("未完了のタスクの個数は%d\n", Tasknum);
         System.out.println("【未完了のタスクを昇順に並び替えて一覧表示】");
         	
         list.stream()
